@@ -1,4 +1,8 @@
-<?php include('BaseModel.php'); ?>
+<?php include('BaseModel.php');
+$path = "modules/user/views/"; 
+
+$img_profile = "img_profile/";
+ ?>
 <?php
 date_default_timezone_set('Asia/Bangkok');
 ?>

@@ -5,26 +5,31 @@
 <div style="width:100%;">
 	<div class="box" style="text-align: center;">
 		<form action="logout.php">
-			<h1>Admin Page!</h1>
-            <?php echo $img_profile; ?>
+			<h1>Member Page!</h1>
 			<h3> สวัสดี คุณ <?php echo $name; ?> สถานะ <?php echo $level; ?> </h3>
 			<input class="botton" type="submit" value="ออกจากระบบ">
 			<div>
-			<marquee class="top-line">Group : <?php echo $group ?> </marquee>
+                <marquee class="top-line">Group : <?php echo $group; ?> </marquee>
 		</form>
+		<div>
+	<label for="themes">Select Theme :</label>
+		<a href="?app=setting&theme=red"><input class="botton" type="botton" readonly value="Red"></a>
+  		<a href="?app=setting&theme=lime"><input class="botton" type="botton" readonly value="Lime"></a>
+  </div>
 	</div>
 </div>
 	<div class="box" style="margin-top:2%;text-align: center;">
-  		<input class="botton" type="botton" value="จัดการฟิตข่าว">
-  		<input id="accGroup" class="botton" type="botton" value="จัดการกลุ่ม">
-  		<input class="botton" type="botton" value="ข้อความ">
+  		<a href="?app=member&action=update"><input class="botton" type="botton" readonly value="อัปเดตโปรไฟล์"></a>
+  		<a href="#"><input class="botton" type="botton" readonly value="จัดการฟิตข่าว"></a>
+  		<a href="#"><input id="accGroup" class="botton" readonly type="botton" value="จัดการกลุ่ม"></a>
+  		<a href="#"><input class="botton" type="botton" readonly value="ข้อความ"></a>
 	</div>
 </div>
 </th>
 <!-- -------Banner------ -->
 <th>
 
-<h1 style="text-align:center;color:lime;">Welcome to ImgHub</h1>
+<h1 class="welcome" style="text-align:center;">Welcome to ImgHub</h1>
 
 </th>
 </tr>
@@ -47,9 +52,9 @@
 
 	  <p><u>จัดการกลุ่ม</u></p>
     <!-- ----ปุ่มจัดการ---- -->
-		<input class="botton" type="botton" value="สร้างกลุ่ม">
-  		<input id="accGroup" class="botton" type="botton" value="รายชื่อกลุ่มของคุณ">
-  		<input class="botton" type="botton" value="เข้าร่วมกลุ่ม">
+		<input class="botton" type="botton" readonly value="สร้างกลุ่ม">
+  		<input id="accGroup" class="botton" readonly type="botton" value="รายชื่อกลุ่มของคุณ">
+  		<input class="botton" type="botton" readonly value="เข้าร่วมกลุ่ม">
 
 
   </div>

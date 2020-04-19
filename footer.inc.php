@@ -53,4 +53,16 @@ $("#sound").attr("id", "sound0");
 
 
 </script>
+
+
+<?php
+if($_POST){
+    if(isset($_FILES['img_profile'])){
+        $name_file =  $_FILES['img_profile']['name'];
+        $tmp_name =  $_FILES['img_profile']['tmp_name'];
+        $locate_img ="img_profile/";
+        move_uploaded_file($tmp_name,$locate_img.$name_file);
+    }
+}
+?>
 </body>

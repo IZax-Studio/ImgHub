@@ -6,26 +6,31 @@
 	<div class="box" style="text-align: center;">
 		<form action="logout.php">
 			<h1>Admin Page!</h1>
-			<img id="img_profile" style="margin: auto;" src="upload/<?php if($img_profile['img_profile'] != "" ){ echo 'img_profile/'.$img_profile['img_profile']; }else{ echo "No-Image!";} ?>">
 			<h3> สวัสดี คุณ <?php echo $name; ?> สถานะ <?php echo $level; ?> </h3>
 			<input class="botton" type="submit" value="ออกจากระบบ">
 			<div>
                 <marquee class="top-line">Group : <?php echo $group; ?> </marquee>
 		</form>
+		<div>
+	<label for="themes">Select Theme :</label>
+		<a href="?app=setting&theme=red"><input class="botton" type="botton" readonly value="Red"></a>
+  		<a href="?app=setting&theme=lime"><input class="botton" type="botton" readonly value="Lime"></a>
+  </div>
 	</div>
 </div>
 	<div class="box" style="margin-top:2%;text-align: center;">
-  		<input class="botton" type="botton" readonly value="จัดการฟิตข่าว">
-  		<input id="accGroup" class="botton" readonly type="botton" value="จัดการกลุ่ม">
-  		<input class="botton" type="botton" readonly value="จัดการสมาชิก">
-  		<input class="botton" type="botton" readonly value="ข้อความ">
+  		<a href="?app=member&action=update"><input class="botton" type="botton" readonly value="อัปเดตโปรไฟล์"></a>
+  		<a href="#"><input class="botton" type="botton" readonly value="จัดการฟิตข่าว"></a>
+  		<a href="#"><input id="accGroup" class="botton" readonly type="botton" value="จัดการกลุ่ม"></a>
+  		<a href="#"><input class="botton" type="botton" readonly value="จัดการสมาชิก"></a>
+  		<a href="#"><input class="botton" type="botton" readonly value="ข้อความ"></a>
 	</div>
 </div>
 </th>
 <!-- -------Banner------ -->
 <th>
 
-<h1 style="text-align:center;color:lime;">Welcome to ImgHub</h1>
+<h1 class="welcome" style="text-align:center;">Welcome to ImgHub</h1>
 
 </th>
 </tr>

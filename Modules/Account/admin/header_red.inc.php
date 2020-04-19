@@ -17,9 +17,9 @@ html
 .botton
 {
     border-radius: 25px;
-    color: lime;
+    color: red;
     background-color: black;
-    border-color: lime;
+    border-color: red;
     width: 95%;
     height: 10%;
     text-align: center;
@@ -41,7 +41,7 @@ html
 {
     border-style: solid;
     background-color: black;
-    color: lime;
+    color: red;
     border-radius: 10px;
     padding-left: 1%;
     padding-right: 1%;
@@ -71,11 +71,11 @@ html
 /* Modal Content */
 .modal-content {
   background-color: black;
-  color: lime;
+  color: red;
   margin: auto;
   padding: 20px;
   border-style: solid;
-  border-color: lime;
+  border-color: red;
   width: fit-content;
   border-radius: 10px;
   transition: preserve-3d 400ms ease-in;
@@ -97,7 +97,7 @@ html
 
 }
 table, th, td {
-  border: 1px solid lime;
+  border: 1px solid red;
   border-collapse: collapse;
 }
 th, td {
@@ -117,7 +117,7 @@ th, td {
   padding: 10px;
 }
 .welcome{
-    color:lime;
+    color:red;
   }
 .img-profile{
   height:45px;

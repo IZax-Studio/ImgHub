@@ -1,11 +1,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;400&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+
+
+
+<title>ImgHub | Admin Page</title>
 <style>
 
 html
 {
-    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur), auto;
+    cursor: url(http://www.rw-designer.com/cursor-view/21723.gif), auto;
     font-family: 'Mitr', sans-serif;
+    transition: 0.2s;
 
 }
 .botton
@@ -15,19 +21,20 @@ html
     background-color: black;
     border-color: lime;
     width: 95%;
-    height: 6%;
+    height: 10%;
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    transition: 0.2s;
 }
 .botton:hover
 {
     border-color: white;
     color: white;
     width: 100%;
-    height: 6%;
+    height: 10%;
     cursor: pointer;
-    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur117.cur), pointer;
+    cursor: url(http://www.rw-designer.com/cursor-view/21729.gif), pointer;
     transition: .1s;
 }
 .box
@@ -58,6 +65,7 @@ html
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transition: preserve-3d 400ms ease-in;
 }
 
 /* Modal Content */
@@ -70,6 +78,7 @@ html
   border-color: lime;
   width: fit-content;
   border-radius: 10px;
+  transition: preserve-3d 400ms ease-in;
 }
 
 /* The Close Button */
@@ -84,7 +93,7 @@ html
 .close:focus {
   color: crimson;
   text-decoration: none;
-  cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur117.cur), pointer;
+  cursor: url(http://www.rw-designer.com/cursor-view/21729.gif), pointer;
 
 }
 table, th, td {
@@ -94,5 +103,28 @@ table, th, td {
 th, td {
   padding: 5px;
   text-align: left;    
+}
+.top-bar{
+  background-color:#80808045;
+  border-style:solid;
+  border-radius:2px;
+  border-width:1px;
+  border-color:#ffffff2b;
+  color:white;
+  height:70px;
+  text-align: -webkit-right;
+  margin-bottom:5px;
+  padding: 10px;
+}
+.welcome{
+    color:lime;
+  }
+.img-profile{
+  height:45px;
+  width:45px;
+  border-radius:12px;
+  border-style:solid;
+  border-color:white;
+  border-width:1px;
 }
 </style>
