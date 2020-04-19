@@ -21,11 +21,11 @@ session_start();
 
                       if($_SESSION["level"]=="admin"){ 
 
-                        Header("Location: Modules/Account/admin/index.php");
+                        Header("Location: ../Modules/Account/admin/index.php");
                       }
                   if ($_SESSION["level"]=="member"){ 
 
-                        Header("Location: Modules/Account/member/index.php");
+                        Header("Location: ../Modules/Account/member/index.php");
                       }
                   }else{
                     echo "<script>";
@@ -36,7 +36,7 @@ session_start();
                   }
         }else{
 
-             Header("Location: index.php"); //user & password incorrect back to login again
+             Header("Location: ../index.php"); //user & password incorrect back to login again
  
         }
 ?>

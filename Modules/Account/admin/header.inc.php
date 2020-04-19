@@ -9,7 +9,7 @@
 
 html
 {
-    cursor: url(http://www.rw-designer.com/cursor-view/21723.gif), auto;
+    cursor: url(http://ani.cursors-4u.net/symbols/sym-8/sym749.cur), auto;
     font-family: 'Mitr', sans-serif;
     transition: 0.2s;
 
@@ -34,7 +34,7 @@ html
     width: 100%;
     height: 10%;
     cursor: pointer;
-    cursor: url(http://www.rw-designer.com/cursor-view/21729.gif), pointer;
+    cursor: url(http://ani.cursors-4u.net/symbols/sym-8/sym749.cur), pointer;
     transition: .1s;
 }
 .box
@@ -93,7 +93,7 @@ html
 .close:focus {
   color: crimson;
   text-decoration: none;
-  cursor: url(http://www.rw-designer.com/cursor-view/21729.gif), pointer;
+  cursor: url(http://ani.cursors-4u.net/symbols/sym-8/sym749.cur), pointer;
 
 }
 table, th, td {

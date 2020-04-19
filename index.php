@@ -1,4 +1,4 @@
-<?php include('BaseModel.php');
+<?php include('Model/BaseModel.php');
 $path = "modules/user/views/"; 
 
 $img_profile = "img_profile/";

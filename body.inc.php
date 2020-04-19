@@ -46,7 +46,7 @@
       <h3 align="center">
       <span class="glyphicon glyphicon-lock"> </span>
       ImgHub Login </h3>
-      <form  name="formlogin" action="check_login.php" method="POST" id="login" class="form-horizontal">
+      <form  name="formlogin" action="model/check_login.php" method="POST" id="login" class="form-horizontal">
         <div class="form-group">
           <div class="col-sm-12">
             <input type="text" style="border-radius: 12px;" name="username" class="form-control input-text" required placeholder="Username" />
@@ -77,7 +77,7 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNavRg()">&times;</a>
 
 
-<form id="formRegister" name="formRegister" enctype="multipart/form-data" method="post" action="insert.php" style="background-color: #ebebeb;">
+<form id="formRegister" name="formRegister" enctype="multipart/form-data" method="post" action="model/insert.php" style="background-color: #ebebeb;">
   <p><br />
     <br />
   </p>
